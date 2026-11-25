@@ -1,0 +1,8 @@
+# Versions used for the paper (Python 3.13). Newer versions of these libraries should also work.
+# PyTorch needs a CUDA 12.8 build for RTX 50-series GPUs (compute capability sm_120):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.6
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+matplotlib>=3.9

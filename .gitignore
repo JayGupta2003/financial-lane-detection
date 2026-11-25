@@ -1,0 +1,19 @@
+# data and generated artefacts
+data/lobster/*
+data/fi2010/*
+!data/lobster/.gitkeep
+!data/fi2010/.gitkeep
+results/
+paper/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
